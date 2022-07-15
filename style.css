@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@300;400;500;600;700&display=swap');
 
-
 /*
 [class*="col"] {
     padding: 1rem;
@@ -45,4 +44,8 @@ form [type="submit"] {
 
 .alert-secondary {
     margin-top: 1rem; 
+}
+
+.carousel-item {
+    
 }
