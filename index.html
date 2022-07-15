@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="welcome alert alert-info" role="alert">আমাদের নতুন মেসে সকলকে স্বাগতম!</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/bu%20(1).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bu%20(2).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bu%20(3).jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="alert alert-danger">
+            <h1>নোটিশ!</h1>
+            <p>আগস্ট মাসের ভাড়া জুলাই মাসের ৩১ তারিখের মধ্যেই পরিশোধ করতে হবে।</p>
+        </div>
+        <button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#collapseLogin" aria-expanded="true">লগ ইন করুন</button>
+        <button class="btn btn-success">হিসাব দেখুন</button>
+        <button class="btn btn-danger">আবেদন করুন</button>
+        <div class="collapse" id="collapseLogin">
+            <div class="card card-body">
+                <form action="#">
+                    <div class="mb-3">
+                        <label for="id" class="form-label">Enter your ID</label>
+                        <input type="number" class="form-control" id="id">
+                    </div>
+                    <div class="mb-3">
+                        <label for="pass" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="pass">
+                        <input class="form-check-label" type="checkbox" onclick="myFunction()"> Show Password <br>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="alert alert-secondary">
+            Designed and Developed by <a href="mailto:arman0sheikh@gmail.com">armanahsanhabib</a>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@300;400;500;600;700&display=swap');
+
+
+/*
+[class*="col"] {
+    padding: 1rem;
+    background-color: rgb(175, 25, 245);
+    border: 2px solid #ccc;
+    color: #fff;
+} */
+
+*{
+    font-family: 'Noto Serif Bengali', serif;
+}
+
+.welcome {
+    margin-top: 0.5rem;
+    color: rgb(198, 32, 89)
+}
+
+.carousel {
+    height: 350px; 
+    background-size: cover; 
+    overflow: hidden; 
+    margin-bottom: 1rem; 
+    border-radius: 0.5rem; 
+}
+
+.alert p {
+    margin: 0; 
+}
+
+.card {
+    margin-top: 1rem;
+    background-color: #fcfcfc;
+}
+
+.form-check-label {
+    margin: 10px 0;
+}
+
+form [type="submit"] {
+    margin-top: 20px; 
+}
+
+.alert-secondary {
+    margin-top: 1rem; 
+}
